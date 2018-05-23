@@ -7,7 +7,7 @@ You must have the following software installed:
 
 ### Instructions
 
-Log into heroku.com, create a new test app. This can be named whatever you want, as long as an app with that name doesn't exist already on Heroku.
+Log into heroku.com and visit your [list of apps](https://dashboard.heroku.com/apps), clicking on the **New** button in the top-right of the screen and selecting the option **Create new app**. This can be named whatever you want, as long as an app with that name doesn't exist already on Heroku.
 
 Once created, follow the initial instructions in the section titled "Deploy using Heroku Git", e.g. ensure you run
 

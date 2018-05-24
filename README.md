@@ -11,6 +11,8 @@ You must have the following software installed:
 * [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 * `git`
 
+You can deploy this Flask app with the `requirements.txt` file in this repo. See the note below on how to take the requirements for your project and save them in your own `requirements.txt` file.
+
 ### Instructions
 
 Log into heroku.com and visit your [list of apps](https://dashboard.heroku.com/apps), clicking on the **New** button in the top-right of the screen and selecting the option **Create new app**. This can be named whatever you want, as long as an app with that name doesn't exist already on Heroku.
@@ -39,6 +41,8 @@ Finally, we'd like to make sure our app can scale to handle multiple requests at
     web: gunicorn app:app
 
 This command is tied to Heroku's web servers tied to your application, and utilizes [`gunicorn`](https://devcenter.heroku.com/articles/python-gunicorn), which enables us to process multiple HTTP requests at a time (by default, Flask will only process one). This `Procfile` tells `gunicorn` to run the `app` object within the `app.py` file.
+
+**Note**: you will also need to `pip install gunicorn` and make sure to `pip freeze` the requirements into your `requirements.txt` file after installing that module.
 
 Once you've configured everything, just run 
 

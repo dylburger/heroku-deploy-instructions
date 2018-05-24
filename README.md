@@ -1,6 +1,6 @@
 ### Why?
 
-Heroku provides a platform to facilitate the deployment of web applications. You don't have to learn how to spin up your own Linux server and manage all the bits and pieces of your own web server. You trust Heroku to provide that infrastructure, focusing on the application code.
+Heroku provides a platform to facilitate the deployment of web applications. You don't have to learn how to spin up your own Linux server and manage all the bits and pieces of your own web server. You trust Heroku to provide that infrastructure, which lets you focus on the application code.
 
 You can also deploy up to 5 simple apps for free (some services are paid, even for these 5 apps). This makes Heroku an ideal place to deploy Python apps for your portfolio. If your app doesn't have any "backend" (e.g. Python, SQL) components, and uses just HTML / CSS / JS, consider [Github Pages](https://pages.github.com/).
 
